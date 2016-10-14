@@ -16,7 +16,7 @@
 
 | 参数名 | 参数描述 |
 | :--: | :--: |
-| div | 要插入广告的div的id |
+| divId | 要插入广告的div的id |
 | slotId | 广告位ID，在cloudmobi注册后由账户经理进行分配 |
 
 注：需要先引入`ad.js`才能调用`ct.showAd();`
