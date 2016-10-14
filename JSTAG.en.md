@@ -1,25 +1,25 @@
 # Cloudmobi JSTag instructions of ads access
 
-### apply files on js
+### introduce js file
 
-apply`http://cdn.download.cloudmobi.net/adsource/ad.js` on WAP page，e.g.:
+Introduce the js file: `http://cdn.download.cloudmobi.net/adsource/ad.js` on your WAP page, e.g.:
 
 ```
 <head>
     <script src="http://cdn.download.cloudmobi.net/adsource/ad.js"></script>
-</head>   
+</head>
 ```
 
-### the method of call `ct.showAd`
+### Call `ct.showAd()`
 
-Call`ct.showAd(divId, slotId);`from div where the ads would be added, parameter details:
+Call `ct.showAd(divId, slotId);` from `<div>` where the ads would be added, parameters details:
 
-| parameter name | parameter description |
+| parameters name | parameters description |
 | :--: | :--: |
-| div | the id of div where ads will be added |
-| slotId | the id of ad position, it will be provided by the account manager after registration on cloudmobi |
+| divId | the id of div where ads will be added |
+| slotId | the id of ad slot, it will be provided by the account manager after registration on cloudmobi |
 
-### Notice: Call `ct.showAd();` after applying `ad.js`
+___Notice: Call `ct.showAd();` after applying `ad.js`___
 
 e.g.:
 
@@ -31,7 +31,7 @@ e.g.:
 </div>
 ```
 
-The example of ad display:
+### example of ad display:
 
 ![img-en](demo.en.jpg)
 

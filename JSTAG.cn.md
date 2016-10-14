@@ -10,7 +10,7 @@
 </head>   
 ```
 
-### 调用`ct.showAd`方法
+### 调用`ct.showAd()`方法
 
 在要插入广告的div里调用`ct.showAd(divId, slotId);`，参数说明:
 
@@ -19,7 +19,7 @@
 | divId | 要插入广告的div的id |
 | slotId | 广告位ID，在cloudmobi注册后由账户经理进行分配 |
 
-注：需要先引入`ad.js`才能调用`ct.showAd();`
+___注：需要先引入`ad.js`才能调用`ct.showAd();`___
 
 调用示例：
 
@@ -31,7 +31,7 @@
 </div>
 ```
 
-广告展示示例：
+### 广告展示示例：
 
 ![img-cn](demo.cn.jpg)
 
