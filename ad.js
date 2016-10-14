@@ -2,7 +2,7 @@
 	var ct = {};
 	ct.showAd = function(div,slotId) {
 		var iframe = document.createElement('iframe');
-		iframe.src = 'http://172.31.1.189/ad.html?slot_id=' + slotId;
+		iframe.src = 'http://cdn.download.cloudmobi.net/adsource/ad.html?slot_id=' + slotId;
 		iframe.width = '100%';
 		iframe.height = '100%';
 		iframe.frameBorder = '0';

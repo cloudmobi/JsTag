@@ -1,0 +1,14 @@
+1.在头部引入ad.js;
+
+```
+<head><script src="http://cdn.download.cloudmobi.net/adsource/ad.js"></script></head>	
+```
+2.在要插入广告的div里调用ct.showAd(div,slotId);
+*div:div的id名字
+```
+<script>
+	ct.showAd('iframe0',157);
+</script>
+```
+
+
