@@ -5,10 +5,13 @@
 ```
 2.在要插入广告的div里调用ct.showAd(div,slotId);
 *div:div的id名字
+*slotId:广告位id;
 ```
-<script>
-	ct.showAd('iframe0',157);
-</script>
+<div id="iframe1">
+	<script>
+		ct.showAd('iframe1',10);
+	</script>
+</div>
 ```
 
 
