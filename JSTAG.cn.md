@@ -2,11 +2,11 @@
 
 ### 引入js文件
 
-在WAP页面引入`http://cdn.download.cloudmobi.net/adsource/ad.js`，例如：
+在WAP页面引入`http://cdn.download.cloudmobi.net/adsource/ad.min.js`，例如：
 
 ```
 <head>
-    <script src="http://cdn.download.cloudmobi.net/adsource/ad.js"></script>
+    <script src="http://cdn.download.cloudmobi.net/adsource/ad.min.js"></script>
 </head>   
 ```
 
@@ -19,7 +19,7 @@
 | divId | 要插入广告的div的id |
 | slotId | 广告位ID，在cloudmobi注册后由账户经理进行分配 |
 
-注：需要先引入`ad.js`才能调用`ct.showAd();`
+注：需要先引入`ad.min.js`才能调用`ct.showAd();`
 
 调用示例：
 
