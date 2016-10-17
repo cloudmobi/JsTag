@@ -1,27 +1,27 @@
-# Cloudmobi JSTag 广告接入方式说明
+# Cloudmobi JSTag instructions of ads access
 
-### 引入js文件
+### introduce js file
 
-在WAP页面引入`http://cdn.download.cloudmobi.net/adsource/ad.js`，例如：
+Introduce the js file: `http://cdn.download.cloudmobi.net/adsource/ad.min.js` on your WAP page, e.g.:
 
 ```
 <head>
-    <script src="http://cdn.download.cloudmobi.net/adsource/ad.js"></script>
-</head>   
+    <script src="http://cdn.download.cloudmobi.net/adsource/ad.min.js"></script>
+</head>
 ```
 
-### 调用`ct.showAd`方法
+### Call `ct.showAd()`
 
-在要插入广告的div里调用`ct.showAd(divId, slotId);`，参数说明:
+Call `ct.showAd(divId, slotId);` from `<div>` where the ads would be added, parameters details:
 
-| 参数名 | 参数描述 |
+| parameters name | parameters description |
 | :--: | :--: |
-| divId | 要插入广告的div的id |
-| slotId | 广告位ID，在cloudmobi注册后由账户经理进行分配 |
+| divId | the id of div where ads will be added |
+| slotId | the id of ad slot, it will be provided by the account manager after registration on cloudmobi |
 
-注：需要先引入`ad.js`才能调用`ct.showAd();`
+___Notice: Call `ct.showAd();` after applying `ad.min.js`___
 
-调用示例：
+e.g.:
 
 ```
 <div id="iframe1">
@@ -31,7 +31,7 @@
 </div>
 ```
 
-广告展示示例：
+### example of ad display:
 
 ![img-en](demo.en.jpg)
 

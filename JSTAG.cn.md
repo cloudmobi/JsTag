@@ -10,7 +10,7 @@
 </head>   
 ```
 
-### 调用`ct.showAd`方法
+### 调用`ct.showAd()`方法
 
 在要插入广告的div里调用`ct.showAd(divId, slotId);`，参数说明:
 
@@ -31,7 +31,7 @@
 </div>
 ```
 
-广告展示示例：
+### 广告展示示例：
 
 ![img-cn](demo.cn.jpg)
 
