@@ -2,11 +2,11 @@
 
 ### introduce js file
 
-Introduce the js file: `http://cdn.download.cloudmobi.net/adsource/ad.min.js` on your WAP page, e.g.:
+Introduce the js file: `http://cdn.download.cloudmobi.net/adsource/ad.js` on your WAP page, e.g.:
 
 ```
 <head>
-    <script src="http://cdn.download.cloudmobi.net/adsource/ad.min.js"></script>
+    <script src="http://cdn.download.cloudmobi.net/adsource/ad.js"></script>
 </head>
 ```
 
@@ -19,7 +19,7 @@ Call `ct.showAd(divId, slotId);` from `<div>` where the ads would be added, para
 | divId | the id of div where ads will be added |
 | slotId | the id of ad slot, it will be provided by the account manager after registration on cloudmobi |
 
-___Notice: Call `ct.showAd();` after applying `ad.min.js`___
+___Notice: Call `ct.showAd();` after applying `ad.js`___
 
 e.g.:
 
