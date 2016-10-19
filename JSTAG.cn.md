@@ -2,11 +2,11 @@
 
 ### 引入js文件
 
-在WAP页面引入`http://cdn.download.cloudmobi.net/adsource/ad.js`，例如：
+在WAP页面引入`http://download.cloudmobi.net/adsource/ad.js`，例如：
 
 ```
 <head>
-    <script src="http://cdn.download.cloudmobi.net/adsource/ad.js"></script>
+    <script src="http://download.cloudmobi.net/adsource/ad.js"></script>
 </head>   
 ```
 

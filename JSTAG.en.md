@@ -2,11 +2,11 @@
 
 ### introduce js file
 
-Introduce the js file: `http://cdn.download.cloudmobi.net/adsource/ad.js` on your WAP page, e.g.:
+Introduce the js file: `http://download.cloudmobi.net/adsource/ad.js` on your WAP page, e.g.:
 
 ```
 <head>
-    <script src="http://cdn.download.cloudmobi.net/adsource/ad.js"></script>
+    <script src="http://download.cloudmobi.net/adsource/ad.js"></script>
 </head>
 ```
 
