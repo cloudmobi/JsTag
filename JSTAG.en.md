@@ -1,7 +1,7 @@
 # Cloudmobi JSTag instructions of ads access
 
-1.ct.showAd() is all about showing ads.
-2.ct.getAds() is about getting ads data and using these data for further operation.
+1. ct.showAd() is all about showing ads.
+2. ct.getAds() is about getting ads data and using these data for further operation.
 
 ### introduce js file
 
@@ -44,7 +44,7 @@ e.g.:
 | parameter name | parameter description |
 | :--: | :--: |
 | slotId | the id of ad slot, which will be provided by the account manager after registration on cloudmobi |
-| callback | call back parameter, the parameter name of callback is data.The type of data is object,could get more than one data |
+| callback | call back parameter, the parameter name of callback is data.The type of data is array |
 | num | the amount of ads |
 
 ### E.g.:the composition of data, the callback parameter
