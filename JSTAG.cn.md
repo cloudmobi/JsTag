@@ -13,8 +13,7 @@
 </head>   
 ```
 
-showAd
-----
+[ct.showAd()](showAd)
 ### ct.showAd()渲染广告
 
 ###调用`ct.showAd()`方法
