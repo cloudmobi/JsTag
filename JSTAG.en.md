@@ -44,13 +44,14 @@ e.g.:
 | parameter name | parameter description |
 | :--: | :--: |
 | slotId | the id of ad slot, which will be provided by the account manager after registration on cloudmobi |
-| callback | call back parameter, the parameter name of callback is data,the type of data is object |
+| callback | call back parameter, the parameter name of callback is data.The type of data is object,could get more than one data |
 | num | the amount of ads |
 
 ### E.g.:the composition of data, the callback parameter
 
 
 ```
+
 [
 	{ 
 		icon: "http://cdn.cloudmobi.net/icon/1.png",
@@ -68,9 +69,7 @@ e.g.:
         desc: "《仙剑奇侠传3D回合》一款3DMMORPG回合制手游，由大宇全系列正版授权、盖娅互娱自主研发。游戏内置直播、个性时装",
         button: "install",
         rank: 4.2
-	    clkUrl: "https://github.com"
 	}
-
 ]
 
 ```
