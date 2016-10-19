@@ -12,8 +12,9 @@
     <script src="http://cdn.download.cloudmobi.net/adsource/ad.js"></script>
 </head>   
 ```
+showAd
+----
 
-[ct.showAd()](showAd)
 ### ct.showAd()渲染广告
 
 ###调用`ct.showAd()`方法
