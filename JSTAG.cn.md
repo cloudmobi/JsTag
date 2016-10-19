@@ -1,6 +1,6 @@
 # Cloudmobi JSTag 广告接入方式说明
 
-* [ct.showAd()渲染广告](#showad)
+* [ct.showAd()渲染广告](#showAd)
 * [ct.getAds()获取多条广告数据并利用该数据进行操作](#getAds)
 
 ### 引入js文件
@@ -12,7 +12,10 @@
     <script src="http://cdn.download.cloudmobi.net/adsource/ad.js"></script>
 </head>   
 ```
-### <a name="showad">ct.showAd()渲染广告</a>
+
+showAd
+----
+### ct.showAd()渲染广告
 
 ###调用`ct.showAd()`方法
 
