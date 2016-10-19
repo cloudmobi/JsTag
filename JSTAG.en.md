@@ -17,7 +17,7 @@ Introduce the js file: `http://cdn.download.cloudmobi.net/adsource/ad.js` on you
 
 Call `ct.showAd(divId, slotId);` from `<div>` where the ads would be added, parameters details:
 
-| parameters name | parameters description |
+| parameter name | parameter description |
 | :--: | :--: |
 | divId | the id of div where ads will be added |
 | slotId | the id of ad slot, which will be provided by the account manager after registration on cloudmobi |
@@ -41,7 +41,7 @@ e.g.:
 
 ### Call `ct.getAds(slotId,callback,num)`,in order to get ads data
 
-| parameters name | parameters description |
+| parameter name | parameter description |
 | :--: | :--: |
 | slotId | the id of ad slot, which will be provided by the account manager after registration on cloudmobi |
 | callback | call back parameter, the parameter name of callback is data,the type of data is object |
