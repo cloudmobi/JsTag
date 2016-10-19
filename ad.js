@@ -43,7 +43,7 @@
 				ads[i].image = ad_list[i].native_adobj.image;
 				ads[i].desc = ad_list[i].native_adobj.desc;
 				ads[i].button = ad_list[i].native_adobj.button;
-				ads[i].rank = ad_list[i].native_adobj.rank;
+				ads[i].rank = ad_list[i].native_adobj.star;
 				ads[i].button = ad_list[i].native_adobj.button;
 				ads[i].clkUrl = ad_list[i].clk_url;
 				
