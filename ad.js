@@ -29,7 +29,7 @@
 	}
 
 	jp.getadsData = function(data) {
-		var ads = {},
+		var ads = [],
 			impEleCon = document.createElement('div');
 
 		impEleCon.style.display = 'none';
@@ -37,9 +37,15 @@
 		if (data.err_no === 0) {
 			var ad_list = data.ad_list;
 			for (var i = 0; i < ad_list.length; i++) {
-				ads['ad_' + i] = {};
-				ads['ad_' + i].adDataObj = ad_list[i].native_adobj;
-				ads['ad_' + i].clkUrl = ad_list[i].clk_url;
+				ads[i] = {};
+				ads[i].icon = ad_list[i].native_adobj.icon;
+				ads[i].title = ad_list[i].native_adobj.title;
+				ads[i].image = ad_list[i].native_adobj.image;
+				ads[i].desc = ad_list[i].native_adobj.desc;
+				ads[i].button = ad_list[i].native_adobj.button;
+				ads[i].rank = ad_list[i].native_adobj.star;
+				ads[i].button = ad_list[i].native_adobj.button;
+				ads[i].clkUrl = ad_list[i].clk_url;
 				
 				var impEle = document.createElement('div');
 				for(var j = 0; j < ad_list[i].imp_tk_url.length; j++) {
