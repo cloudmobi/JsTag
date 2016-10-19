@@ -1,7 +1,7 @@
 # Cloudmobi JSTag 广告接入方式说明
 
-1.ct.showAd()渲染广告
-2.ct.getAds()获取广告数据对象并利用该数据对象进行操作
+*[ct.showAd()渲染广告](#showad)
+*[ct.getAds()获取广告数据对象并利用该数据对象进行操作](#getAds)
 
 ### 引入js文件
 
@@ -13,7 +13,7 @@
 </head>   
 ```
 
-### 调用`ct.showAd()`方法
+###<a name="showad">调用`ct.showAd()`方法</a>
 
 在要插入广告的div里调用`ct.showAd(divId, slotId);`，参数说明:
 
@@ -38,7 +38,7 @@
 
 ![img-cn](demo.cn.jpg)
 
-### 调用`ct.getAds(slotId,callback,num)`方法，获取广告数据
+### <a name="getAds">调用`ct.getAds(slotId,callback,num)`方法，获取广告数据</a>
 
 | 参数名 | 参数描述 |
 | :--: | :--: |
@@ -57,8 +57,7 @@
 	        image: "http://i1.tobei.cn/2014/1222/20141222092542930.jpg",
 	        desc: "伟大的中国共产党永垂不朽",
 	        button: "install",
-	        star: 4.2,
-	        choices_link_url: "http://api.cloudmobi.net"
+	        star: 4.2
 	    },
 	    clkUrl: "https://github.com"
 	},
@@ -69,8 +68,7 @@
 	        image: "http://i1.tobei.cn/2014/1222/20141222092542930.jpg",
 	        desc: "《仙剑奇侠传3D回合》一款3DMMORPG回合制手游，由大宇全系列正版授权、盖娅互娱自主研发。游戏内置直播、个性时装",
 	        button: "install",
-	        star: 4.2,
-	        choices_link_url: "http://api.cloudmobi.net"
+	        star: 4.2
 	    },
 	    clkUrl: "https://github.com"
 	}
