@@ -35,7 +35,7 @@
 
 ![img-cn](demo.cn.jpg)
 
-### 调用`ct.getAds(slotId,callback,num)`方法
+### 调用`ct.getAds(slotId,callback,num)`方法，获取广告数据
 
 | 参数名 | 参数描述 |
 | :--: | :--: |
