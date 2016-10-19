@@ -14,7 +14,7 @@ Cloudmobi JSTag 广告接入方式说明
     <script src="http://download.cloudmobi.net/adsource/ad.js"></script>
 </head>   
 ```
-<a name="showAd">show</a>
+* <a name="showAd">show</a>
 showAd
 ----
 
