@@ -51,31 +51,27 @@ e.g.:
 
 
 ```
-{
-	ad_0 : { 
-		adDataObj : {
-			icon: "http://cdn.cloudmobi.net/icon/1.png",
-	        title: "plan",
-	        image: "http://i1.tobei.cn/2014/1222/20141222092542930.jpg",
-	        desc: "伟大的中国共产党永垂不朽",
-	        button: "install",
-	        star: 4.2
-	    },
+[
+	{ 
+		icon: "http://cdn.cloudmobi.net/icon/1.png",
+        title: "plan",
+        image: "http://i1.tobei.cn/2014/1222/20141222092542930.jpg",
+        desc: "御剑情缘-登录送绝版飞剑 全民DIY家园开启",
+        button: "install",
+        rank: 4.2
 	    clkUrl: "https://github.com"
 	},
-	ad_1 : { 
-		adDataObj : {
-			icon: "http://cdn.cloudmobi.net/icon/1.png",
-	        title: "仙剑奇侠传3D回合-互动直播欢乐交友",
-	        image: "http://i1.tobei.cn/2014/1222/20141222092542930.jpg",
-	        desc: "《仙剑奇侠传3D回合》一款3DMMORPG回合制手游，由大宇全系列正版授权、盖娅互娱自主研发。游戏内置直播、个性时装",
-	        button: "install",
-	        star: 4.2
-	    },
+	{ 
+		icon: "http://cdn.cloudmobi.net/icon/1.png",
+        title: "仙剑奇侠传3D回合-互动直播欢乐交友",
+        image: "http://i1.tobei.cn/2014/1222/20141222092542930.jpg",
+        desc: "《仙剑奇侠传3D回合》一款3DMMORPG回合制手游，由大宇全系列正版授权、盖娅互娱自主研发。游戏内置直播、个性时装",
+        button: "install",
+        rank: 4.2
 	    clkUrl: "https://github.com"
 	}
 
-}
+]
 
 ```
 
