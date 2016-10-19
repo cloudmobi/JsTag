@@ -39,7 +39,7 @@ e.g.:
 ![img-en](demo.en.jpg)
 
 
-### Call `ct.getAds(slotId,callback,num)`,in order to get ads data
+### Call `ct.getAds(slotId,callback,num)`, in order to get ads data
 
 | parameter name | parameter description |
 | :--: | :--: |
