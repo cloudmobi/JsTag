@@ -1,5 +1,6 @@
 # Cloudmobi JSTag 广告接入方式说明
 
+###<a name="index">Index</a>
 * [ct.showAd()渲染广告](#showad)
 * [ct.getAds()获取广告数据对象并利用该数据对象进行操作](#getAds)
 
