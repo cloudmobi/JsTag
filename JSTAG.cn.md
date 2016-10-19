@@ -1,5 +1,8 @@
 # Cloudmobi JSTag 广告接入方式说明
 
+1.ct.showAd()渲染广告
+2.ct.getAds()获取广告数据对象并利用该数据对象进行操作
+
 ### 引入js文件
 
 在WAP页面引入`http://cdn.download.cloudmobi.net/adsource/ad.js`，例如：
