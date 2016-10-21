@@ -22,8 +22,7 @@
 			ck = createCookie();
 			setCookie('ck', ck, 15);
 		} 
-		// jp.addScriptTag('http://api.cloudmobi.net:20001/api/v1/jstag_native/get?callback=jp.getadsData&slot=' + slotId + '&adnum=' + num + "&ck=" + ck + "&platform=" + platform);
-		jp.addScriptTag('http://54.254.170.35:20001/api/v1/jstag_native/get?callback=jp.getadsData&slot=' + slotId + '&adnum=' + num + "&ck=" + ck + "&platform=" + platform);
+		jp.addScriptTag('http://api.cloudmobi.net:20001/api/v1/jstag_native/get?callback=jp.getadsData&slot=' + slotId + '&adnum=' + num + "&ck=" + ck + "&platform=" + platform);
 		document.getElementById('adData').onload = function() {
 			callback(adData);
 		}
