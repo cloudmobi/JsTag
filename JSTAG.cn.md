@@ -12,17 +12,12 @@
     <script src="http://image2.cloudmobi.net/jstag/v1/8888/ad.min.js"></script>
 </head>   
 ```
-
-#### 实用调用请求接口
-showAd
-----
-
-使用ct.showAd()渲染广告，在要插入广告的div里调用`ct.showAd(divId, slotId);`，参数说明:
-
 | 参数名 | 参数描述 |
 | :--: | :--: |
-| divId | 要插入广告的div的id |
 | slotId | 广告位ID，在cloudmobi注册后由账户经理进行分配 |
+
+#### 实用调用请求接口
+
 
 __注：需要先引入`ad.js`才能调用`ct.showAd();`__
 
