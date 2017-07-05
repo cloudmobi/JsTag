@@ -1,11 +1,9 @@
-Cloudmobi JSTag 广告接入方式说明
-====
+### Cloudmobi JSTag 广告接入方式说明
 
-* [ct.showAd()渲染广告](#showAd)
-* [ct.getAds()获取多条广告数据并利用该数据进行操作](#getAds)
+* [方式一：直接引入js文件](#直接引入js文件)
+* [方式二：实用调用请求接口](#实用调用请求接口)
 
-引入js文件
-----
+#### 直接引入js文件
 
 在WAP页面引入`http://image2.cloudmobi.net/jstag/v1/{slotid}/ad.min.js`，其中需要替换掉链接中的宏`{slotid}`例如：
 
@@ -15,6 +13,7 @@ Cloudmobi JSTag 广告接入方式说明
 </head>   
 ```
 
+#### 实用调用请求接口
 showAd
 ----
 
