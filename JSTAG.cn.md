@@ -19,7 +19,7 @@
 #### 方式二：实用调用请求接口
 
 
-__注：需要先引入`ad.js`才能调用`ct.getAds(slotId, callback, 1)`__
+__注：需要先引入`ad.min.js`才能调用`ct.getAds(slotId, callback, 1)`__
 
 调用`ct.getAds(slotId, callback, 1)`方法，获取广告元数据并使用callback函数对数据进行处理
 
@@ -86,8 +86,21 @@ __主要字段解释__
 <div>
     <script>
         ct.getAds(slotId, callback, 1);
+        
+        function callback(data) { 
+            // ...
+            ads[0].clkUrl = ad_list[i].clk_url;
+            image = document.createElement("img");
+            image.setAttribute("src", "http://cdn.image2.cloudmobi.net");
+            var child = document.getElementById("images").appendChild(image);
+            child.onclick = function() {
+                // request clk_url
+            }
+          // ...
+        }
+        
     </script>
-    <image src="http://cdn.image2.cloudmobi.net/" onclick=clk_url>
+    
 </div>
 
 ```
