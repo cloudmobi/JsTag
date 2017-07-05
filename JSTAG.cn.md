@@ -78,7 +78,10 @@ __主要字段解释__
 
 自行选择合适尺寸图片：
 
-* http://cdn.image2.cloumobi.net/
+* http://cdn.image2.cloudmobi.net/manual/picture/gift/320/480.jpg
+* http://cdn.image2.cloudmobi.net/manual/picture/gift/480/320.jpg
+* http://cdn.image2.cloudmobi.net/manual/picture/red/720/381.jpeg
+* http://cdn.image2.cloudmobi.net/manual/picture/blue/720/381.jpeg
 
 调用示例：
 
