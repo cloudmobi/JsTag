@@ -32,7 +32,7 @@ callback参数data组成示例：
 ----
 
 ```
-var date = {
+{
     "err_msg": "ok",
     "err_no": 0,
     "ad_list": [
@@ -63,8 +63,7 @@ var date = {
         }
     ],
     "ck": "f499c87052910af7df75ab4805efb9b7"
-};
-jp.getadsData(data);
+}
 ```
 
 __主要字段解释__
