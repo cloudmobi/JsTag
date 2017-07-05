@@ -19,18 +19,19 @@
 #### 实用调用请求接口
 
 
-__注：需要先引入`ad.js`才能调用`ct.showAd();`__
+__注：需要先引入`ad.js`才能调用`ct.getAds(slotId, callback, num, interval)`__
 
 
 调用示例：
 
 ```
-<div id="iframe1">
+<div>
     <script>
-        ct.showAd('iframe1', 11);
+        ct.getAds(slotId, callback, num, interval);
     </script>
 </div>
 ```
+
 
 广告展示示例：
 ----
