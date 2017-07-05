@@ -21,22 +21,6 @@
 
 __注：需要先引入`ad.js`才能调用`ct.getAds(slotId, callback, 1)`__
 
-自行选择合适尺寸图片：
-
-* http://cdn.image2.cloumobi.net/
-
-调用示例：
-
-```
-<div>
-    <script>
-        ct.getAds(slotId, callback, 1);
-    </script>
-    <image src="http://cdn.image2.cloudmobi.net/">
-</div>
-
-```
-
 调用`ct.getAds(slotId, callback, 1)`方法，获取广告元数据并使用callback函数对数据进行处理
 
 | 参数名 | 参数描述 |
@@ -81,4 +65,33 @@ callback参数data组成示例：
     "ck": "f499c87052910af7df75ab4805efb9b7"
 }]
 ```
+
+__主要字段解释__
+
+|字段| 类型| 说明|
+|:-:|:--:|:---:|
+|err_msg|错误信息|正常为"ok"|
+|clk_url|字符串|广告点击链接|
+|final_url|字符串|广告最终跳转地址|
+|imp_tk_url|字符串数组|曝光检测数组|
+|clk_tk_url|字符串数组|点击检测数组|
+
+自行选择合适尺寸图片：
+
+* http://cdn.image2.cloumobi.net/
+
+调用示例：
+
+```
+<div>
+    <script>
+        ct.getAds(slotId, callback, 1);
+    </script>
+    <image src="http://cdn.image2.cloudmobi.net/" onclick=clk_url>
+</div>
+
+```
+
+
+
 
