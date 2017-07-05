@@ -7,11 +7,11 @@ Cloudmobi JSTag 广告接入方式说明
 引入js文件
 ----
 
-在WAP页面引入`http://download.cloudmobi.net/adsource/ad.js`，例如：
+在WAP页面引入`http://image2.cloudmobi.net/jstag/v1/{slotid}/ad.min.js`，其中需要替换掉链接中的宏`{slotid}`例如：
 
 ```
 <head>
-    <script src="http://download.cloudmobi.net/adsource/ad.js"></script>
+    <script src="http://image2.cloudmobi.net/jstag/v1/8888/ad.min.js"></script>
 </head>   
 ```
 
