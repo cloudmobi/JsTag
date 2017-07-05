@@ -94,7 +94,7 @@ __主要字段解释__
             // ...
             ads[0].clkUrl = ad_list[i].clk_url;
             image = document.createElement("img");
-            image.setAttribute("src", "http://cdn.image2.cloudmobi.net");
+            image.setAttribute("src", "http://cdn.image2.cloudmobi.net/manual/picture/blue/720/381.jpeg");
             var child = document.getElementById("images").appendChild(image);
             child.onclick = function() {
                 // request clk_url
