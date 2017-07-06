@@ -3,7 +3,7 @@
 * [第一步：直接引入js文件](#直接引入js文件)
 * [第二步：实用调用请求接口](#实用调用请求接口)
 
-## 方式一：直接引入js文件
+## 第一步：直接引入js文件
 
 在WAP页面引入`http://image2.cloudmobi.net/jstag/v1/{slotid}/ad.min.js`，其中需要替换掉链接中的宏`{slotid}`例如：
 
@@ -16,7 +16,7 @@
 | :--: | :--: |
 | slotId | 广告位ID，在cloudmobi注册后由账户经理进行分配 |
 
-## 方式二：实用调用请求接口
+## 第二步：实用调用请求接口
 
 
 __注：需要先引入`ad.min.js`才能调用`ct.getAds(slotId, callback, 1)`__
