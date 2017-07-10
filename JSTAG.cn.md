@@ -61,7 +61,7 @@ __主要字段解释__
         ct.getAds(slotId, callback, 1);
         
         function callback(data) {
-          if (data.length) {
+          if (typeof(data)!=="undefined") {
             data.map( (obj, index) => {
               var create  = document.createElement("div")
               create.innerHTML = `
