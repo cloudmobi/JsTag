@@ -34,7 +34,7 @@ callback参数data组成示例：
 ```
 [
     {
-        "clkUrl": "https://global.ymtracking.com/trace?offer_id=5248115&app_id=131&type=6643a0e500000024&aff_sub2=2237&aff_sub3=US_svm_&aff_sub4=696-447-329_&aff_sub5=3438925352481152237-California-LosAngeles_1499251194_MTA2ODM2NjkzNw%3D%3D&aff_sub7=2CA1CDF6-9CF0-439B-B208-18FE7F82225F&aff_sub6=jtn&idfa=2CA1CDF6-9CF0-439B-B208-18FE7F82225F&android_id=&device_os=iOS&ch=ym&aff_sub8=2237"
+        "clkUrl": "https://global.ymtracking.com/trace?offer_id=5248115&app_id=131&type=6643a0e500000024&aff_sub2=8888&aff_sub3=US_svm_&aff_sub4=696-447-329_&aff_sub5=3438925352481152237-California-LosAngeles_1499251194_MTA2ODM2NjkzNw%3D%3D&aff_sub7=2CA1CDF6-9CF0-439B-B208-18FE7F82225F&aff_sub6=jtn&device_os=iOS&ch=ym&aff_sub8=8888"
     }
 ]
 ```
