@@ -61,16 +61,18 @@ __主要字段解释__
         ct.getAds(slotId, callback, 1);
         
         function callback(data) {
-          if (typeof(data)!=="undefined") {
-            data.map( (obj, index) => {
+          if (data) {
+            for (var i = 0; i < data.length; i++) {
               var create  = document.createElement("div")
-              create.innerHTML = `
-              <a href="${obj.clkUrl}">
-                < img src="http://cdn.image2.cloudmobi.net/manual/picture/blue/720/381.jpeg">
-              </a >
-              `
+              var clkurl = data[i].clkUrl
+              var img = document.createElement("img")
+              img.src = 'http://cdn.image2.cloudmobi.net/manual/picture/blue/720/381.jpeg'
+              var a = document.createElement("a")
+              a.href = clkurl
+              a.appendChild(img)
+              create.appendChild(a)
               document.body.appendChild(create)
-            })
+            }
           }
         }
     </script>
