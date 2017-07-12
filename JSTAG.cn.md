@@ -59,7 +59,6 @@ __主要字段解释__
 <div>
     <script>
         ct.getAds(slotId, callback, 1);
-        
         function callback(data) {
           if (data) {
             for (var i = 0; i < data.length; i++) {
