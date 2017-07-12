@@ -18,7 +18,7 @@ Introduce the js file: `http://download.cloudmobi.net/adsource/ad.js` on your WA
 showAd
 ----
 
-Call `ct.showAd(divId, slotId);` in `<div>` where the ads would be added, parameters details:
+Call `ct_jsTag_private.showAd(divId, slotId);` in `<div>` where the ads would be added, parameters details:
 
 | parameter name | parameter description |
 | :--: | :--: |
@@ -32,7 +32,7 @@ e.g.:
 ```
 <div id="iframe1">
     <script>
-        ct.showAd('iframe1', 11);
+        ct_jsTag_private.showAd('iframe1', 11);
     </script>
 </div>
 ```
@@ -61,7 +61,7 @@ E.g.:the composition of data, the callback parameter
 ```
 
 [
-	{ 
+	{
 		icon: "http://cdn.cloudmobi.net/icon/1.png",
         title: "plan",
         image: "http://i1.tobei.cn/2014/1222/20141222092542930.jpg",
@@ -70,7 +70,7 @@ E.g.:the composition of data, the callback parameter
         rank: 4.2
 	    clkUrl: "https://github.com"
 	},
-	{ 
+	{
 		icon: "http://cdn.cloudmobi.net/icon/1.png",
         title: "some ads",
         image: "http://i1.tobei.cn/2014/1222/20141222092542930.jpg",
@@ -81,4 +81,3 @@ E.g.:the composition of data, the callback parameter
 ]
 
 ```
-
