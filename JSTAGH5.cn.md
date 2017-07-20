@@ -1,7 +1,7 @@
 # JS Tag_H5
 
 ## 请求方式
-http://image2.cloudmobi.net/jsTag/{SLOTID}/h5.html?idfa={IDFA}
+http://image2.cloudmobi.net/jstag/{SLOTID}/h5.html?idfa={IDFA}
 
 #### 需要替换的宏说明
 |宏|说明|
