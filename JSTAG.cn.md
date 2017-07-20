@@ -19,9 +19,9 @@
 ## 第二步：调用接口获取并展示广告
 
 
-__注：需要先引入`ad.min.js`才能调用`ct.getAds(slotId, callback, 1)`__
+__注：需要先引入`ad.min.js`才能调用`ct_jsTag_private.getAds(slotId, callback, 1)`__
 
-调用`ct.getAds(slotId, callback, 1)`方法，获取广告元数据并使用callback函数对数据进行处理
+调用`ct_jsTag_private.getAds(slotId, callback, 1)`方法，获取广告元数据并使用callback函数对数据进行处理
 
 | 参数名 | 参数描述 |
 | :--: | :--: |
@@ -34,7 +34,7 @@ callback参数data组成示例：
 ```
 [
     {
-        "clkUrl": "https://global.ymtracking.com/trace?offer_id=5248115&app_id=131&type=6643a0e500000024&aff_sub2=2237&aff_sub3=US_svm_&aff_sub4=696-447-329_&aff_sub5=3438925352481152237-California-LosAngeles_1499251194_MTA2ODM2NjkzNw%3D%3D&aff_sub7=2CA1CDF6-9CF0-439B-B208-18FE7F82225F&aff_sub6=jtn&idfa=2CA1CDF6-9CF0-439B-B208-18FE7F82225F&android_id=&device_os=iOS&ch=ym&aff_sub8=2237"
+        "clkUrl": "https://global.ymtracking.com/trace?offer_id=5248115&app_id=131&type=6643a0e500000024&aff_sub2=8888&aff_sub3=US_svm_&aff_sub4=696-447-329_&aff_sub5=3438925352481152237-California-LosAngeles_1499251194_MTA2ODM2NjkzNw%3D%3D&aff_sub7=2CA1CDF6-9CF0-439B-B208-18FE7F82225F&aff_sub6=jtn&device_os=iOS&ch=ym&aff_sub8=8888"
     }
 ]
 ```
@@ -58,11 +58,11 @@ __主要字段解释__
 ```
 <div>
     <script>
-        ct.getAds(slotId, callback, 1);
-        
+        ct_jsTag_private.getAds(slotId, callback, 1);
+
         function callback(data) {
-          if (data.length) {
-            data.map( (obj, index) => {
+          if (data) {
+            for (var i = 0; i < data.length; i++) {
               var create  = document.createElement("div")
               create.innerHTML = `
               <a href="${obj.clkUrl}">
@@ -70,7 +70,7 @@ __主要字段解释__
               </a >
               `
               document.body.appendChild(create)
-            })
+            }
           }
         }
     </script>
