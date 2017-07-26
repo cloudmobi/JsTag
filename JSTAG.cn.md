@@ -58,7 +58,7 @@ __主要字段解释__
 ```
 <div>
     <script>
-        ct.getAds(slotId, callback, 1);
+        ct_jsTag_private.getAds(slotId, callback, 1);
 
         function callback(data) {
           if (data) {
