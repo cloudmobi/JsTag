@@ -19,9 +19,9 @@
 ## 第二步：调用接口获取并展示广告
 
 
-__注：需要先引入`ad.min.js`才能调用`ct.getAds(slotId, callback, 1)`__
+__注：需要先引入`ad.min.js`才能调用`ct_jsTag_private.getAds(slotId, callback, 1)`__
 
-调用`ct.getAds(slotId, callback, 1)`方法，获取广告元数据并使用callback函数对数据进行处理
+调用`ct_jsTag_private.getAds(slotId, callback, 1)`方法，获取广告元数据并使用callback函数对数据进行处理
 
 | 参数名 | 参数描述 |
 | :--: | :--: |
@@ -58,7 +58,7 @@ __主要字段解释__
 ```
 <div>
     <script>
-        ct.getAds(slotId, callback, 1);
+        ct_jsTag_private.getAds(slotId, callback, 1);
 
         function callback(data) {
           if (data) {

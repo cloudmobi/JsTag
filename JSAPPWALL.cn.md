@@ -2,7 +2,7 @@
 
 ### 请求链接
 
-http://image2.cloudmobi.net/appwall/jstag/{slotid}/appwall_h5.html?idfa={idfa}
+http://cdn.image2.cloudmobi.net/appwall/jstag/{slotid}/appwall_h5.html?idfa={idfa}
 
 ### 需要替换的宏说明
 
