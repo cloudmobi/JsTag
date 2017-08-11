@@ -51,7 +51,7 @@ __主要字段解释__
 * http://resource.catch.gift/manual/picture/gift/320/480.jpg
 * http://resource.catch.gift/manual/picture/gift/480/320.jpg
 * http://resource.catch.gift/manual/picture/red/720/381.jpeg
-* http://resource.catch.gift/manual/picture/blue/720/381.jpeg
+* http://resource.catch.gift/manual/picture/blue/720/381.jpg
 
 调用示例：
 
