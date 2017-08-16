@@ -6,4 +6,6 @@
 
 ### [JS_APPWALL](./JSAPPWALL.cn.md)
 
+### [FAQ](./JSTAG_FAQ.cn.md)
+
 ### [后台操作用户指南](./CloudmobiSSPUserGuide-JSTAG.pdf)
