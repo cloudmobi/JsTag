@@ -2,6 +2,10 @@
 
 ### [JS-Tag使用说明文档](./JSTAG.cn.md)
 
-### [JS Tag Instruction](./JSTAG.en.md)
-
 ### [JS TagH5](./JSTAGH5.cn.md)
+
+### [JS_APPWALL](./JSAPPWALL.cn.md)
+
+### [FAQ](./JSTAG_FAQ.cn.md)
+
+### [后台操作用户指南](./CloudmobiSSPUserGuide-JSTAG.pdf)

@@ -5,11 +5,11 @@
 
 ## 第一步：引入js文件
 
-在WAP页面引入`http://image2.cloudmobi.net/jstag/v1/{slotid}/ad.min.js`，其中需要替换掉链接中的宏`{slotid}`例如：
+在WAP页面引入`http://resource.catch.gift/jstag/v1/{slotid}/ad.min.js`，其中需要替换掉链接中的宏`{slotid}`例如：
 
 ```
 <head>
-    <script src="http://image2.cloudmobi.net/jstag/v1/8888/ad.min.js"></script>
+    <script src="http://resource.catch.gift/jstag/v1/8888/ad.min.js"></script>
 </head>   
 ```
 | 参数名 | 参数描述 |
@@ -48,29 +48,27 @@ __主要字段解释__
 
 自行选择合适尺寸图片：
 
-* http://cdn.image2.cloudmobi.net/manual/picture/gift/320/480.jpg
-* http://cdn.image2.cloudmobi.net/manual/picture/gift/480/320.jpg
-* http://cdn.image2.cloudmobi.net/manual/picture/red/720/381.jpeg
-* http://cdn.image2.cloudmobi.net/manual/picture/blue/720/381.jpeg
+* http://resource.catch.gift/manual/picture/gift/320/480.jpg
+* http://resource.catch.gift/manual/picture/gift/480/320.jpg
+* http://resource.catch.gift/manual/picture/red/720/381.jpg
+* http://resource.catch.gift/manual/picture/blue/720/381.jpg
 
 调用示例：
 
 ```
 <div>
     <script>
-        ct_jsTag_private.getAds(slotId, callback, 1);
+        ct_jsTag_private.getAds(slotId, callback, 1);
 
         function callback(data) {
           if (data) {
             for (var i = 0; i < data.length; i++) {
               var create  = document.createElement("div")
-              var clkurl = data[i].clkUrl
-              var img = document.createElement("img")
-              img.src = 'http://cdn.image2.cloudmobi.net/manual/picture/blue/720/381.jpeg'
-              var a = document.createElement("a")
-              a.href = clkurl
-              a.appendChild(img)
-              create.appendChild(a)
+              create.innerHTML = `
+              <a href="${obj.clkUrl}">
+                < img src="http://resource.catch.gift/manual/picture/blue/720/381.jpeg">
+              </a >
+              `
               document.body.appendChild(create)
             }
           }
@@ -80,3 +78,4 @@ __主要字段解释__
 </div>
 
 ```
+
