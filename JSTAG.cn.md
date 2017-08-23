@@ -58,24 +58,24 @@ __主要字段解释__
 ```
 <div>
     <script>
-        ct_jsTag_private.getAds(slotId, callback, 1);
-
-        function callback(data) {
-          if (data) {
-            for (var i = 0; i < data.length; i++) {
-              var create  = document.createElement("div")
-              create.innerHTML = `
-              <a href="${obj.clkUrl}">
-                < img src="http://resource.catch.gift/manual/picture/blue/720/381.jpeg">
-              </a >
-              `
-              document.body.appendChild(create)
-            }
+      function thiscallback(data) {
+        if (data) {
+          for (var i = 0; i < data.length; i++) {
+            var create  = document.createElement("div")
+            create.innerHTML = `
+            <a href="${obj.clkUrl}">
+              < img src="http://resource.catch.gift/manual/picture/blue/720/381.jpeg">
+            </a >
+            `
+            document.body.appendChild(create)
           }
         }
+      }
+      ct_jsTag_private.getAds(slotId, function (data) {
+        return thiscallback(data)
+      }, 1);
     </script>
     
 </div>
 
 ```
-
