@@ -58,21 +58,22 @@ __主要字段解释__
 ```
 <div>
     <script>
-        ct_jsTag_private.getAds(slotId, callback, 1);
-
-        function callback(data) {
+      function thiscallback(data) {
           if (data) {
             for (var i = 0; i < data.length; i++) {
               var create  = document.createElement("div")
               create.innerHTML = `
-              <a href="${obj.clkUrl}">
-                < img src="http://resource.catch.gift/manual/picture/blue/720/381.jpeg">
-              </a >
+                <a href="${data[i].clkUrl}">
+                  < img src="${data[i].image}" alt="">
+                </a >
               `
               document.body.appendChild(create)
             }
           }
         }
+        ct_jsTag_private.getAds(8888, function (data) {
+          return thiscallback(data)
+        }, 1);
     </script>
     
 </div>
