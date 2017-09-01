@@ -62,9 +62,9 @@ __主要字段解释__
           if (data) {
             for (var i = 0; i < data.length; i++) {
               var create  = document.createElement("div")
+              // 下面的img src 根据自己的需求选取合适图片地址
               create.innerHTML = `
                 <a href="${data[i].clkUrl}">
-                // 下面的img src 根据自己的需求选取合适图片地址
                  < img src="http://resource.catch.gift/manual/picture/blue/720/381.jpg" alt="">
                 </a >
               `
@@ -76,7 +76,6 @@ __主要字段解释__
           return thiscallback(data)
         }, 1);
     </script>
-    
 </div>
 
 ```
