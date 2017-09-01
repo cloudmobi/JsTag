@@ -65,7 +65,7 @@ __主要字段解释__
               create.innerHTML = `
                 <a href="${data[i].clkUrl}">
                 // 下面的img src 根据自己的需求选取合适图片地址
-                 < img src=" http://resource.catch.gift/manual/picture/blue/720/381.jpg" alt="">
+                 < img src="http://resource.catch.gift/manual/picture/blue/720/381.jpg" alt="">
                 </a >
               `
               document.body.appendChild(create)
