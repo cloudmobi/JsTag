@@ -48,11 +48,11 @@ __主要字段解释__
 
 自行选择合适尺寸图片：
 
-*http://resource.catch.gift/manual/picture/giftblue/640/100.jpg
-*http://resource.catch.gift/manual/picture/giftblue/640/150.jpg
-*http://resource.catch.gift/manual/picture/giftred1/640/200.jpg
-*http://resource.catch.gift/manual/picture/giftred/750/422.jpg
-*http://resource.catch.gift/manual/picture/giftpurple/3000/500.jpg
+http://resource.catch.gift/manual/picture/giftblue/640/100.jpg
+http://resource.catch.gift/manual/picture/giftblue/640/150.jpg
+http://resource.catch.gift/manual/picture/giftred1/640/200.jpg
+http://resource.catch.gift/manual/picture/giftred/750/422.jpg
+http://resource.catch.gift/manual/picture/giftpurple/3000/500.jpg
 
 调用示例：
 
