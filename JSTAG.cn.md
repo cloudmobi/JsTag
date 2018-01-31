@@ -48,33 +48,35 @@ __主要字段解释__
 
 自行选择合适尺寸图片：
 
-* http://resource.catch.gift/manual/picture/gift/320/480.jpg
-* http://resource.catch.gift/manual/picture/gift/480/320.jpg
-* http://resource.catch.gift/manual/picture/red/720/381.jpg
-* http://resource.catch.gift/manual/picture/blue/720/381.jpg
+http://resource.catch.gift/manual/picture/giftblue/640/100.jpg
+http://resource.catch.gift/manual/picture/giftblue/640/150.jpg
+http://resource.catch.gift/manual/picture/giftred1/640/200.jpg
+http://resource.catch.gift/manual/picture/giftred/750/422.jpg
+http://resource.catch.gift/manual/picture/giftpurple/3000/500.jpg
 
 调用示例：
 
 ```
 <div>
     <script>
-        ct_jsTag_private.getAds(slotId, callback, 1);
-
-        function callback(data) {
+      function thiscallback(data) {
           if (data) {
             for (var i = 0; i < data.length; i++) {
               var create  = document.createElement("div")
+              // 下面的img src 根据自己的需求选取合适图片地址
               create.innerHTML = `
-              <a href="${obj.clkUrl}">
-                < img src="http://resource.catch.gift/manual/picture/blue/720/381.jpeg">
-              </a >
+                <a href="${data[i].clkUrl}">
+                 <img src="http://resource.catch.gift/manual/picture/blue/720/381.jpg" alt="">
+                </a >
               `
               document.body.appendChild(create)
             }
           }
         }
+        ct_jsTag_private.getAds(8888, function (data) {
+          return thiscallback(data)
+        }, 1);
     </script>
-    
 </div>
 
 ```
